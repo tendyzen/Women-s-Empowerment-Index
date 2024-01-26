@@ -1,0 +1,6 @@
+SELECT country as Country_Name,
+        region, income_group, wbl_report_year AS Year,
+        question_category, question, index_score AS Score
+FROM viz5_july_2020_economic_empowerement 
+ORDER BY Country_Name, Year, question_category
+;

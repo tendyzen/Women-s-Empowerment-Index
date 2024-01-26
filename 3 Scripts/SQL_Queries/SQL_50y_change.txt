@@ -1,0 +1,20 @@
+WITH index_1971 AS (
+    SELECT country, SUM(index_score) as index_1971
+    FROM viz5_july_2020_economic_empowerement
+    WHERE wbl_report_year = 1971
+    GROUP BY country
+),
+index_2020 AS (
+    SELECT country, SUM(index_score) as index_2020
+    FROM viz5_july_2020_economic_empowerement
+    WHERE wbl_report_year = 2020
+    GROUP BY country
+)
+SELECT v.country, ii.index_1971, i.index_2020,
+        (i.index_2020 - ii.index_1971) AS fifty_year_change
+FROM viz5_july_2020_economic_empowerement v
+JOIN index_2020 i ON v.country = i.country
+JOIN index_1971 ii ON i.country = ii.country
+GROUP BY v.country, i.index_2020, ii.index_1971
+ORDER BY fifty_year_change DESC
+;

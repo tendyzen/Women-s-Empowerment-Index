@@ -1,0 +1,6 @@
+SELECT country, wbl_report_year AS year,
+     question as child_leave_qs, index_score AS score
+FROM viz5_july_2020_economic_empowerement
+WHERE question IN ('Is paid leave of at least 14 weeks available to mothers?', 
+'Is there paid leave available to fathers?', 'Is there paid parental leave?')
+;
