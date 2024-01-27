@@ -46,6 +46,7 @@ In an era marked by global transformations, our project delves into a fifty-year
 ## Future Directions
 - Further research needed to understand sociocultural forces driving negative correlations in Emerging Nations.
 - Opportunity to unlock hidden potentials of growth and wealth through a comprehensive understanding of these dynamics.
+- The entire Tableau Dashboard can be found here: https://public.tableau.com/app/profile/aaron.manzano/viz/WEI_V_2/GlobalAnalysisTheWomensEmpowermentIndex?publish=yes
 
 ## Conclusion
 This analysis sheds light on the intricate relationship between Women's Empowerment and economic dynamics, emphasizing the moral imperative and potential economic gains associated with gender equality. While challenges persist, the data indicates a positive trajectory and underscores the enduring impact of securing women's rights across various categories. This outlook provides hope for a future marked by equality and shared prosperity.
